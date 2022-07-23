@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import SideBar from './SideBar';
 
 function App() {
   return (
-    <div className="text-3xl text-center text-green-500">Hello, dad! Hello, mom!</div>
-
+    <SideBar/>
   );
 }
 
